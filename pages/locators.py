@@ -6,6 +6,13 @@ class MainPageLocators:
 
 
 class LoginPageLocators:
-    PAGE_ADDRESS = "http://selenium1py.pythonanywhere.com/en-gb/accounts/login/"
     LOGIN_FORM = (By.ID, "login_form")
     REGISTER_FORM = (By.ID, "register_form")
+
+
+class ProductPageLocators:
+    ADD_TO_BASKET_BUTTON = (By.CSS_SELECTOR, ".btn-add-to-basket")
+    BASKET_PRICE_LOCATOR = (By.CSS_SELECTOR, ".alertinner>p>strong")
+    PRODUCT_PRICE_LOCATOR = (By.CSS_SELECTOR, "p.price_color")
+    PRODUCT_NAME_IN_BASKET_LOCATOR = (By.CSS_SELECTOR, ".alertinner>strong")
+    PRODUCT_NAME_ON_PAGE_LOCATOR = (By.CSS_SELECTOR, ".product_main>h1")
