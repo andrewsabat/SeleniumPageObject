@@ -1,2 +1,2 @@
 # SeleniumPageObject
-This is beginning work with Page Object model with selenium in python
+This is final work with Page Object model with selenium in python
