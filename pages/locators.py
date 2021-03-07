@@ -16,3 +16,4 @@ class ProductPageLocators:
     PRODUCT_PRICE_LOCATOR = (By.CSS_SELECTOR, "p.price_color")
     PRODUCT_NAME_IN_BASKET_LOCATOR = (By.CSS_SELECTOR, ".alertinner>strong")
     PRODUCT_NAME_ON_PAGE_LOCATOR = (By.CSS_SELECTOR, ".product_main>h1")
+    SUCCESS_MESSAGE_LOCATOR = (By.CSS_SELECTOR, ".alert-success")
