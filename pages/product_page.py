@@ -1,10 +1,14 @@
 from .base_page import BasePage
-from .locators import ProductPageLocators
+from .locators import ProductPageLocators, BasePageLocators
 
 
 class ProductPage(BasePage):
     def click_on_basket_button(self):
         basket_button = self.browser.find_element(*ProductPageLocators.ADD_TO_BASKET_BUTTON)
+        basket_button.click()
+
+    def click_on_login_register_button(self):
+        basket_button = self.browser.find_element(*BasePageLocators.LOGIN_LINK)
         basket_button.click()
 
     def should_be_basket_button(self):
